@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/* nav bar  */
+nav {
+    position: fixed;
+    padding: 25px;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 27%, rgba(142, 135, 223, 1) 67%);
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.nav-itmes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-itmes ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-itmes ul li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-itmes ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.ebdaa {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.ebdaa:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+
+
+/* HERO SECTION */
+
+
+.hero {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero button {
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 27%, rgba(142, 135, 223, 1) 67%);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.hero .txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    color: #071c4d;
+}
+
+.hero .txt .title {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.services {
+    display: flex;
+    padding: 0 50px;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.services .svg img {
+    max-width: 30vw;
+    min-width: 280px;
+}
+
+.our-ser {
+    color: #071c4d;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-ser ul li {
+    margin: 10px;
+}
+
+.our-ser h2 {
+    font-size: 30px;
+}
+
+.mech {
+    margin-top: 80px;
+    padding: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 27%, rgba(142, 135, 223, 1) 67%);
+    margin-bottom: 40px;
+
+}
+
+.mechf {
+    display: flex;
+    flex-direction: column;
+}
+
+.mech .title {
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.mech .steps {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.steps .cir {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.step p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+
+.figure {
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    background: rgb(171, 115, 208);
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 10%, rgba(142, 135, 223, 1) 30%);
+    overflow: hidden;
+
+}
+
+.figure>div {
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: white;
+}
+
+.figure2 {
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    background: rgb(142, 135, 223);
+    background: linear-gradient(90deg, rgba(142, 135, 223, 1) 10%, rgba(171, 115, 208, 0.9948354341736695) 90%);
+    overflow: hidden;
+
+}
+
+.figure2>div {
+    width: 100%;
+    z-index: -2;
+    height: 100%;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    background-color: white;
+}
+
+.advantages {
+    margin: 150px 0;
+
+}
+
+.advantages .container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.advantages .box {
+    border-bottom: 1px solid #8fa6db6b;
+    border-right: 1px solid #8fa6db6b;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.advantages .box img {
+    max-width: 200px;
+    margin-right: 50px;
+    align-self: center;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.advantages .box .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #071c4d;
+}
+
+.box1 {
+    display: flex;
+    gap: 50px;
+}
+
+.pricing .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #071c4d;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.plan {
+    padding: 80px 80px;
+    border: 1px solid rgba(171, 115, 208, 0.9948354341736695);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.price {
+    text-align: center;
+}
+
+.plan ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+}
+
+.plan button {
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 27%, rgba(142, 135, 223, 1) 67%);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(171, 115, 208, 0.9948354341736695) 27%, rgba(142, 135, 223, 1) 67%);
+    color: white;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.copy {
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.contact-info, .social {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.contact-info li {
+    margin-left: 20px;
+}
+
+
+
+.social li {
+    margin-left: 20px;
+    font-size: 20px;
+}
